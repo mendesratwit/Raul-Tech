@@ -1,0 +1,13 @@
+git add ~ Tell git to add the file to staging area to prepare for the next commit
+git commit -m 'describe changes' ~ Commits changes
+git push  ~ Publishes commit to repository (pushes code to git server)
+git status - Provides helpful information regarding git status
+git pull - Pull changes from git server to sync local repo
+git commit -am add and merge
+git log - Provides list of commit history
+
+git branch - list current branches in repo
+git checkout - check out other branches
+git checout -b - create new branch to check out 
+git merge feature - merges feature branch to main
+

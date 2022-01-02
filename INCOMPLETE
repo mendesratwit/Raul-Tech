@@ -1,0 +1,28 @@
+
+POSIX Basics
+Sockets
+Service management
+Threads and Concurrency
+Process Management
+Startup Management (initd)
+IO Management
+
+BEFORE WORK STARTS 
+Git
+Text Manipulation : Awk,sed,grep,sort,uniqu,cat,cut,echo,fmt,tr,nl,egrep,wc
+Process Monitoring: ps,top,htop,lsof
+Network: Nmap,tcpdump,ping,mtr,traceroute,dig,airmon,airodump, dig airmon,iptables,netstat
+Others: strace,dtrace,systemtap,uname,df,history
+System performance,nmon,iostat,sar,vmstat
+
+Golang
+Kubernetes
+Docker compose
+Docker swarm
+Explore distros
+Advanced OS,networking,security concepts
+Advance python programming
+Bash scripting 
+
+PS = [ ps -aux ] Session specific Process Snapshot 
+
