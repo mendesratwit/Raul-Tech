@@ -1,0 +1,101 @@
+
+https://www.networkworld.com/article/3633172/glossary-of-networking-terms.html
+https://docs.oracle.com/cd/E53394_01/pdf/E54755.pdf
+Load Balancers - A device that efficiently distributes traffic among servers 
+Proxys - Server that retrieves data on the internet for the user (middleman)
+Reverse Proxies = Server for the server that takes in requests and directs them to the appropriate server.
+HTTP = Hypertext transfer protocol (webpages) (clear text)
+HTTPS = Secure Hypertext transfer protocol (encrypted) (encrypted text)
+SSL = Secure sockets layer protocol that uses public key encryption to secure data 
+Connect to site > ask for identification > webserver returns ssl certificate > verify certificate > webserver returns acknowledgement and data can be transferred
+TLS = Transport layer security, latest cryptography protocol authenticates server,client,and encrypts data
+POP3 = Used for retrieving email from an email server (Post office protocol) Downloads email to device from mail server only from inbox folder. Once downloaded the email is deleted from the mail server
+IMAP = Used for retrieving email from an email server (Internet Message Access Protocol) Allows access to email server from multiple devices and caches local copies of the email to all devices including all default and custom folders. [ALL EMAILS AND FOLDER ARE FULLY SYCHRONIZED]
+DMARC = (Domain-based message authentication, reporting and conformance) Email authentication protocol designed to give domain owners the ability to to protect their domain with the use of things like email quarentining.
+DNS = Domain Name System Resolves names to numbers, resolves domain names to IP addresses. (Phone book analogy) ISP/Resolve → Root server(13) → Direction ISP/Resolve → TLD Top Level Domain Server → Last resort Authoritative Name server
+LAN = 	Local area network (home network) where devices connected to the network communicate with each other and the outside network.
+Subnet = Defines LAN range to determine if devices are on the same network 255.255.0.0
+IP Address
+Gateway -devices that forward data from one network to another(the internet network) (generally routers) requests and response go through gateways to reach clients or webpages
+
+Router = Device that connects clients to outside networks
+NAT = Network Address Translation, Remapping IP address while they traveling across a traffic routing device.
+= Security system that monitors and controls the incoming and outgoing network traffic based on predetermined security rules
+DMZ = Demitrizlied Zone, Subnetwork that contains and exposes a device to an untrusted network such as the internet. (Device on the outside network wants to communicate with your device on LAN when the request reaches the router it gets directed to the dmz to communicate with the requested device in the DMZ)
+Port Forwarding = Port forwarding redirects a communication request from one address and port number combinations to another while the packets are traversing a network gateway such as a router or firewall(if configured when the outside device makes a request to the inside device on a specific specified port allow the connection/communication to occur uninterrupted.
+
+
+
+Wan = Wide area network
+
+VPN - Encrypts data being transferred over the internet
+TCP/UDP
+Transmission control protocol
+User data gram protocol
+Switches = Identifies and connects devices on the same network using the devices IP LAN
+IP Addressing 
+Subnet Masks
+Firewalls
+VPC = Abstract private cloud network 
+NACL
+SSH
+NAT
+Caching
+OSI Model all people seem to need data processing
+Application - UI
+Presentation - HTTP/CSS
+Session - Printers
+Transport - TCP UDP
+Network - IP 
+Datalink -T
+Physical Layer
+ISO Model
+vlan
+TLS
+Private Link
+Network Peering
+OWASP
+CDN 
+Virtualization
+DNS Look up
+MAC
+ARP Ethernet
+DCHP - Dynamic Configuration Host protocol
+Allow NA to connect to DCHP servers to automatically configure devices ip gate subnet and also reserve a range of ip for your network
+SMB, NFS, FTP, HTTP, and SMTP
+Process and thread
+Register, Cache & Memory architecture
+BIOS, CPU, Cores, Hyper Threading, GPU
+LDAP
+NFS
+IPCONFIG
+NETSTAT
+TRACEROUTE
+
+TELNET
+DHCL
+—--------------------------------------------------------
+NACL
+
+Caching
+OSI Model
+ISO Model
+TLS
+Private Link
+Network Peering
+OWASP
+CDN 
+Virtualization
+DNS Look up
+MAC
+ARP Ethernet
+Gateways
+Routers
+SMB, NFS, FTP, HTTP, and SMTP
+Process and thread
+Register, Cache & Memory architecture
+BIOS, CPU, Cores, Hyper Threading, GPU
+LDAP
+NFS
+IP Config
+
